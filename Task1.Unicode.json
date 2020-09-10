@@ -1,0 +1,14 @@
+{
+    "Unicode" : {
+        "first line" : "\u0F00\u0F0E", 
+        "second line" : "\u0F42\u0F4E\u0F66\u0F0B\u0F5A\u0F74\u0F63\u0F0B\u0F0D"
+    },
+    "Symbols" : {
+        "first line" : "ༀ༎",
+        "second line" : "གཎས་ཚུལ་།"
+    },
+    "Translation" : {
+        "first line" : "syllable om and something else, not recognized",
+        "second line" : "not recognized"
+    }
+}
