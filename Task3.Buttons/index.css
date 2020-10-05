@@ -1,0 +1,19 @@
+.wrap {
+    padding: 0px;
+    margin: 5px;
+}
+
+.btn {
+    border: solid 1px #666;
+    padding: 5px;
+    margin: 0px;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

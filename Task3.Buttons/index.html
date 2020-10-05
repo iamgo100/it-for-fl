@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <title>Task 3. Buttons</title>
+    </head>
+    <body>
+        <audio class="aud" id="information">
+            <source src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/inf/infor/information__gb_2.mp3" type="audio/mp3">
+        </audio>
+        <audio class="aud" id="file">
+            <source src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fil/file_/file__gb_1.mp3" type="audio/mp3">
+        </audio>
+        <audio class="aud" id="transfer">
+            <source src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tra/trans/transfer__gb_3.mp3" type="audio/mp3">
+        </audio>
+        <audio class="aud" id="protocol">
+            <source src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/proto/protocol__gb_1.mp3" type="audio/mp3">
+        </audio>
+        <audio class="aud" id="all">
+            <source src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/ftp/ftp_1/ftp_1_gb_1_abbr.mp3" type="audio/mp3">
+        </audio>
+        <div id="container">
+            <div class="wrap"><button class="btn" data-word="information"><b>information</b> /ˌɪnfəˈmeɪʃn/</button></div>
+            <div class="wrap">
+                <button class="btn" data-word="file"><b>file</b> /faɪl/</button>
+                <span> + </span>
+                <button class="btn" data-word="transfer"><b>transfer</b> /trænsˈfɜː(r)/</button>
+                <span> + </span>
+                <button class="btn" data-word="protocol"><b>protocol</b> /ˈprəʊtəkɒl/</button>
+                <span> = </span>
+                <button class="btn" data-word="all"><b>FTP</b></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
